@@ -1,0 +1,12 @@
+adminUser:
+  password: vault:eyecactus/adminUser:password
+  username: admin
+dashboardUrl: https://dashboard.jxaas.live
+enableDocker: false
+pipelineUser:
+  email: arcalos-admin@googlegroups.com
+  token: vault:eyecactus/pipelineUser:token
+  username: cloudbees-ci-cd[bot]
+prow:
+  hmacToken: vault:eyecactus/prow:hmacToken
+segmentWriteKey: vault:eyecactus:segmentWriteKey
